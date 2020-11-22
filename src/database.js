@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost', {
+mongoose.connect('mongodb://localhost/torreview-db', {
     useCreateIndex: true,
     useNewUrlParser: true,
     useFindAndModify: false
