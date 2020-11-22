@@ -1,11 +1,15 @@
-<div class="col-md-6">
+<div class="col-md-4">
     <div class="card card-body">
         <form action="/" method="POST">
             <div class="form-group">
-                <input type="text" name="user" placeholder="Username" class="form-control">
+                <input type="text" name="position" placeholder="Position wanted" class="form-control">
             </div>
             <div class="form-group">
-                <input type="text" name="jobs" placeholder="Jobs" class="form-control">
+                <input type="text" name="experience" placeholder="Experience in years" class="form-control">
+            </div>
+            <div class="form-group">
+                <input id="remote_check"type="radio" name="remote" class="custom-control-input">
+                <label class="custom-control-input" for="remote_check" > Remote</label>
             </div>
             <div class="form-group">
                 <button class="btn btn-success btn-block" type="submit"> Get Info!</button>
